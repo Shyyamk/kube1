@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mvc
-        image: kube1/kubecode-master/MvcApp/:v2.$(Build.BuildId)
+        image: kubecode-master/MvcApp/:v2.$(Build.BuildId)
         ports:
         - containerPort: 80
         resources:
